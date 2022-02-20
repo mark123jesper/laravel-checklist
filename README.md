@@ -15,9 +15,9 @@
 ### Database Eloquent Relationships - CRUD
 - [x] One to One Relationship
 - [x] One to Many Relationship
-- [ ] Many to Many Relationship
-- [ ] Polymorphic One to May Relationship
-- [ ] Polymorphic Many to Many Relationship
+- [x] Many to Many Relationship ```still needs proper use case application for further understanding```
+- [x] Polymorphic One to May Relationship ```still needs proper use case application for further understanding```
+- [x] Polymorphic Many to Many Relationship ```still needs proper use case application for further understanding```
 ### Blade Templating ```Optional```
 - [ ] Forms - Validations
 - [ ] Forms - File Upload
