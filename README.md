@@ -24,8 +24,8 @@
 - [ ] Forms - Simple Login Page
 ### Security
 - [x] middleware
-- [ ] Sessions
+- [x] Sessions ```unable to commit the progress along middleware project. sad.```
 ### Miscellaneous
-- [ ] Sending Email API
+- [x] Sending Email API ```Used mailtrap for email testing tool and mailgun for email service provider```
 - [ ] Sending SMS API ```optional but recommended```
 ### ...and more. Checklist will be updated if see fit.
