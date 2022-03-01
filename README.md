@@ -25,7 +25,7 @@
 ### Security
 - [x] middleware
 - [x] Sessions ```unable to commit the progress along middleware project. sad.```
-- [x] Sanctum + Fortify Authentication (session based with fortify features and minor token-based login/logout)
+- [x] Sanctum + Fortify Authentication ```session based with fortify features and minor token-based login/logout```
 ### Miscellaneous
 - [x] Sending Email API ```Used mailtrap for email testing tool and mailgun for email service provider```
 - [ ] Sending SMS API ```optional but recommended```
