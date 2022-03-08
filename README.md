@@ -31,7 +31,37 @@
 - [x] middleware
 - [x] Sessions ```unable to commit the progress along middleware project. sad.```
 - [x] Sanctum + Fortify Authentication ```session based with fortify features and minor token-based login/logout```
+- [x] Passport ```api token-based authentication with oauth service provider```
+- [ ] Socialite
+- [ ] Jetstream + Fortify
+- [ ] Jetstream + Inertia
 ### Miscellaneous
 - [x] Sending Email API ```Used mailtrap for email testing tool and mailgun for email service provider```
 - [ ] Sending SMS API ```optional but recommended```
+- [x] Cache 
+> Used in the example is database caching _https://youtu.be/xsAG_tu3cuk_
+> Commonly used for reducing load time by caching current query for amount of minutes
+- [x] Queue
+> Used in the example is database queueing _https://youtu.be/z_RZAHsQnDk_
+> Commonly used for part of codes that does not need on the standard workflow to reduce response time
+- [x] Storage (Local/Cloud)
+> Used in the example are local storage and cloud storage(using dropbox) _https://youtu.be/Py3iq7RZoUE_
+> Dont forget to use 
+> ```console
+> php artisan storage:link 
+> ```
+> or
+> ```console
+> sail artisan storage:link
+> ```
+> to link your storage folder publicly.
+> 
+> **using Google Drive as Cloud Storage:** 
+> Gist reference _https://gist.github.com/sergomet/f234cc7a8351352170eb547cccd65011_
+> 
+> Lesson Link: _https://youtu.be/ygtawz36Lq0_
+- [x] Notifications
+> _https://youtu.be/ygtawz36Lq0_
+> For realtime notification using Pusher and Echo _https://youtu.be/i6Rdkv-DLwk_. You can use **Socketi** along with Echo for an open-source web socket recommended and documented by Laravel.
+
 ### ...and more. Checklist will be updated if see fit.
